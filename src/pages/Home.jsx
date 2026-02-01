@@ -5,9 +5,7 @@ import { PRODUCTS } from "../data/products.js";
 import { buildLineUrl, defaultLeadMessage } from "../lib/line.js";
 
 // โหลดโลโก้จาก public
-// const logo = "/logo-re-bg.png";
-<img src={`${import.meta.env.BASE_URL}logo-re-bg.png`} ... />
-
+const logo = "/logo-re-bg.png";
 
 export default function Home() {
   const lineUrl = buildLineUrl(defaultLeadMessage());
